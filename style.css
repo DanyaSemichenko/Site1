@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*
+селектор {
+    властивість: значення;
+}
+*/
+
+body {
+  
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    background-image: url("images/bg.jpg");
+    background-repeat: repeat;
+    background-size: cover;  
+    backdrop-filter: blur(5px);
+    backdrop-filter: ;
+
+}
+
+.main {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+
+.header{
+
+    color: #312a2a;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 18px;
+    
+}
+h3 {
+    
+    color: #9e9e9e;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+h4{ 
+    color: #9e9e9e;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+h5{ 
+    color: #9e9e9e;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+p {
+    color: #ccc340;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+figcaption{
+    margin-top: 12px;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+
+}
+
+.image1 {
+    border: 1px solid black;
+    width: 600px;
+    height: 900px;
+    object-fit: cover;
+    object-position: right;
+    margin: auto;
+    position: center;
+}
+
+
+.image2 {
+    border: 1px solid black;
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    position: center;
+
+}
+
+.container {
+    
+    
+    color: #252525;
+    text-align: center;
+    padding: 30px 45px;
+    font-size: 20px;
+
+}
+
+.footer{
+    font-size: 22px;
+}
